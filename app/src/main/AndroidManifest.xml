@@ -13,6 +13,13 @@
         android:theme="@style/Theme.GALERY2WP"
         tools:targetApi="31">
         <activity
+            android:name=".Profil"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".HasilSearch"
             android:exported="false">
             <meta-data
